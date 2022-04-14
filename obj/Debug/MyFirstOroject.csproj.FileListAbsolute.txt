@@ -1,0 +1,8 @@
+C:\Users\Tehnik\source\repos\MyFirstOroject\bin\Debug\MyFirstOroject.exe.config
+C:\Users\Tehnik\source\repos\MyFirstOroject\bin\Debug\MyFirstOroject.exe
+C:\Users\Tehnik\source\repos\MyFirstOroject\bin\Debug\MyFirstOroject.pdb
+C:\Users\Tehnik\source\repos\MyFirstOroject\obj\Debug\MyFirstOroject.csproj.AssemblyReference.cache
+C:\Users\Tehnik\source\repos\MyFirstOroject\obj\Debug\MyFirstOroject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tehnik\source\repos\MyFirstOroject\obj\Debug\MyFirstOroject.csproj.CoreCompileInputs.cache
+C:\Users\Tehnik\source\repos\MyFirstOroject\obj\Debug\MyFirstOroject.exe
+C:\Users\Tehnik\source\repos\MyFirstOroject\obj\Debug\MyFirstOroject.pdb
