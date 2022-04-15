@@ -10,18 +10,18 @@ namespace MyFirstOroject
     {
         static void Main()
         {
-            int boot = 10;
-            Random random = new Random(5);
-            int[] Array=new int[boot];
+            int boot = 100;
+            Random random = new Random(1);
+            double[] Array = Class1.myArray(boot);
             for (int i=0; i<boot; i++)
             {
-                Array[i]=random.Next(boot);
-                Console.WriteLine(Array[i]);
+                Array[i] = random.Next(7,boot);
+                //Console.WriteLine(Array[i]);
                
 
             }
             Console.WriteLine("Сортировка");
-            int x=0;
+            double x=0;
             for (int i = 0; i < boot; i++)
             {
                 for (int j = i+1; j < boot; j++)
@@ -37,9 +37,37 @@ namespace MyFirstOroject
 
 
                 }
-                Console.WriteLine(Array[i]);
+               // Console.WriteLine(Array[i]);
             }
-           
+            double []Array1=new double [boot];
+            double y;
+            int z = 0;
+            int f = 0;
+            for (int i = 0; i < boot; i++)
+            {
+                Array1[i] = (Array[i] * Array[i] - 1) / 24;
+                y = Array1[i] - (int)Array1[i];
+                if (y<=0)
+                {
+                    
+                    Console.WriteLine(Array[i]);
+                    z++;
+                    
+
+                }
+                else
+                {
+                    f++;
+                    
+
+                }
+
+
+
+            }
+            Console.WriteLine("простых чисел  {0}", z);
+            Console.WriteLine("составных чисел  {0}", f);
+
         }
     }
 }
