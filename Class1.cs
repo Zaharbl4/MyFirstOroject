@@ -13,6 +13,11 @@ namespace MyFirstOroject
             double[] array = new double[size];
             return array;
         }
+        public static double[] myArray1(int size)
+        {
+            double[] array=new double[size];
+            return array;
+        }
     }
 }
                 

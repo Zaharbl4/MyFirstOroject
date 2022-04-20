@@ -10,7 +10,7 @@ namespace MyFirstOroject
     {
         static void Main()
         {
-            int boot = 100;
+            int boot = 10000000;//  <= запусти это говно заработало))
             Random random = new Random(1);
             double[] Array = Class1.myArray(boot);
             for (int i=0; i<boot; i++)
@@ -21,36 +21,19 @@ namespace MyFirstOroject
 
             }
             Console.WriteLine("Сортировка");
-            double x=0;
-            for (int i = 0; i < boot; i++)
-            {
-                for (int j = i+1; j < boot; j++)
-                {
-                    if (Array[i] > Array[j])
-                    {
-                        x = Array[i];
-                        Array[i] = Array[j];
-                        Array[j] = x;
-                      
-                    }
-                    
-
-
-                }
-               // Console.WriteLine(Array[i]);
-            }
-            double []Array1=new double [boot];
+           
+            double []Array1 = Class1.myArray1(boot);
             double y;
             int z = 0;
             int f = 0;
             for (int i = 0; i < boot; i++)
             {
                 Array1[i] = (Array[i] * Array[i] - 1) / 24;
-                y = Array1[i] - (int)Array1[i];
+                y = Array1[i] - (long)Array1[i];
                 if (y<=0)
                 {
                     
-                    Console.WriteLine(Array[i]);
+                    //Console.WriteLine(Array[i]);
                     z++;
                     
 
